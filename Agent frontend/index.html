@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Dashboard - EcoptiAI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 px-6 py-4 shadow-sm">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <h1 class="text-2xl lg:text-3xl font-bold text-gray-900">
+                    AI Agent Dashboard
+                </h1>
+                <span class="text-sm text-gray-500">EcoptiAI E-commerce Platform</span>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <!-- Event Type Filter -->
+                <div class="flex items-center gap-2">
+                    <label class="text-sm text-gray-600 font-medium">Filter:</label>
+                    <select id="eventTypeFilter" class="px-3 py-1 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="">All Events</option>
+                        <option value="Product Added">Product Added</option>
+                        <option value="Customer Query">Customer Query</option>
+                        <option value="Order Delayed">Order Delayed</option>
+                        <option value="Inventory Alert">Inventory Alert</option>
+                        <option value="Price Update">Price Update</option>
+                        <option value="Review Analysis">Review Analysis</option>
+                    </select>
+                </div>
+                
+                <!-- Refresh Button -->
+                <button
+                    id="refreshBtn"
+                    class="px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 
+                           text-white rounded-lg transition-all duration-200 
+                           focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                    <div class="flex items-center gap-2">
+                        <span id="refreshIcon">↻</span>
+                        <span id="refreshText">Refresh</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-6">
+        <div class="flex flex-col lg:flex-row gap-6">
+            <!-- Agent Activities Table -->
+            <div class="flex-1">
+                <!-- Error Alert -->
+                <div id="errorAlert" class="hidden mb-4 bg-red-50 border border-red-200 rounded-lg p-4 text-red-800">
+                    <div class="flex items-center gap-2">
+                        <span>⚠</span>
+                        <span id="errorMessage">Error loading agent events</span>
+                    </div>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loadingState" class="bg-white rounded-lg border border-gray-200 p-8 text-center shadow-sm">
+                    <div class="w-8 h-8 border-4 border-gray-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-4"></div>
+                    <div class="text-gray-600">Loading agent events...</div>
+                </div>
+
+                <!-- Events Table -->
+                <div id="eventsContainer" class="hidden">
+                    <!-- Desktop Table Header -->
+                    <div class="hidden md:grid md:grid-cols-12 gap-4 px-4 py-2 text-sm text-gray-600 font-medium mb-4 bg-gray-50 rounded-lg">
+                        <div class="col-span-2">Event Type</div>
+                        <div class="col-span-2">Timestamp</div>
+                        <div class="col-span-3">Input / Event Data</div>
+                        <div class="col-span-3">Agent Action</div>
+                        <div class="col-span-2">Outcome</div>
+                    </div>
+
+                    <!-- Events List -->
+                    <div id="eventsList" class="space-y-3">
+                        <!-- Events will be dynamically inserted here -->
+                    </div>
+
+                    <!-- Summary Stats -->
+                    <div class="mt-6 grid grid-cols-2 md:grid-cols-6 gap-4">
+                        <div class="bg-white rounded-lg border border-gray-200 p-4 text-center shadow-sm">
+                            <div class="w-8 h-8 rounded-full bg-blue-500 mx-auto mb-2"></div>
+                            <div class="text-gray-900 font-bold text-xl" id="productAddedCount">0</div>
+                            <div class="text-gray-600 text-sm">Product Added</div>
+                        </div>
+                        <div class="bg-white rounded-lg border border-gray-200 p-4 text-center shadow-sm">
+                            <div class="w-8 h-8 rounded-full bg-yellow-500 mx-auto mb-2"></div>
+                            <div class="text-gray-900 font-bold text-xl" id="customerQueryCount">0</div>
+                            <div class="text-gray-600 text-sm">Customer Query</div>
+                        </div>
+                        <div class="bg-white rounded-lg border border-gray-200 p-4 text-center shadow-sm">
+                            <div class="w-8 h-8 rounded-full bg-red-500 mx-auto mb-2"></div>
+                            <div class="text-gray-900 font-bold text-xl" id="orderDelayedCount">0</div>
+                            <div class="text-gray-600 text-sm">Order Delayed</div>
+                        </div>
+                        <div class="bg-white rounded-lg border border-gray-200 p-4 text-center shadow-sm">
+                            <div class="w-8 h-8 rounded-full bg-orange-500 mx-auto mb-2"></div>
+                            <div class="text-gray-900 font-bold text-xl" id="inventoryAlertCount">0</div>
+                            <div class="text-gray-600 text-sm">Inventory Alert</div>
+                        </div>
+                        <div class="bg-white rounded-lg border border-gray-200 p-4 text-center shadow-sm">
+                            <div class="w-8 h-8 rounded-full bg-green-500 mx-auto mb-2"></div>
+                            <div class="text-gray-900 font-bold text-xl" id="priceUpdateCount">0</div>
+                            <div class="text-gray-600 text-sm">Price Update</div>
+                        </div>
+                        <div class="bg-white rounded-lg border border-gray-200 p-4 text-center shadow-sm">
+                            <div class="w-8 h-8 rounded-full bg-purple-500 mx-auto mb-2"></div>
+                            <div class="text-gray-900 font-bold text-xl" id="reviewAnalysisCount">0</div>
+                            <div class="text-gray-600 text-sm">Review Analysis</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Agent Actions Panel -->
+            <div class="lg:w-80">
+                <div class="bg-white rounded-lg border border-gray-200 p-4 shadow-sm">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-gray-900 font-semibold">Recent Agent Actions</h3>
+                        <button
+                            id="toggleActionsBtn"
+                            class="text-gray-600 hover:text-gray-900 transition-colors"
+                        >
+                            −
+                        </button>
+                    </div>
+
+                    <div id="actionsPanel" class="space-y-2 max-h-96 overflow-y-auto">
+                        <div class="text-gray-500 text-sm text-center py-4">
+                            No recent actions
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="agent_dashboard.js"></script>
+</body>
+</html>

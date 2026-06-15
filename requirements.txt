@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langchain-core
+groq
+python-dotenv
+redis
+numpy
+sentence-transformers
+scikit-learn
+requests
+twilio

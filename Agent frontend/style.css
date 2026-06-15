@@ -1,0 +1,203 @@
+/* Custom animations and styles for the AI Agent Dashboard */
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Smooth transitions for new events */
+.event-row {
+    transition: all 0.3s ease-in-out;
+}
+
+.event-row:hover {
+    transform: translateY(-1px);
+}
+
+/* Custom scrollbar for the actions panel */
+#actionsPanel::-webkit-scrollbar {
+    width: 6px;
+}
+
+#actionsPanel::-webkit-scrollbar-track {
+    background: rgba(229, 231, 235, 0.5);
+    border-radius: 3px;
+}
+
+#actionsPanel::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.5);
+    border-radius: 3px;
+}
+
+#actionsPanel::-webkit-scrollbar-thumb:hover {
+    background: rgba(107, 114, 128, 0.7);
+}
+
+/* Loading animation enhancement */
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Ensure buttons are touch-friendly on mobile */
+    button {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    /* Better spacing for mobile cards */
+    .event-row {
+        margin-bottom: 0.75rem;
+    }
+}
+
+/* Focus states for accessibility */
+button:focus,
+select:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Smooth hover effects */
+.hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Event type badge animations */
+.event-type-badge {
+    transition: all 0.2s ease-in-out;
+}
+
+.event-type-badge:hover {
+    transform: scale(1.05);
+}
+
+/* Error alert animation */
+#errorAlert {
+    animation: slideIn 0.3s ease-out;
+}
+
+/* Status badge styling */
+.outcome-badge {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+/* Professional table styling */
+.table-header {
+    background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+}
+
+/* Custom backdrop blur fallback for older browsers */
+@supports not (backdrop-filter: blur(10px)) {
+    .backdrop-blur-md {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+/* Animation for new events appearing */
+@keyframes newEvent {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px) scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.new-event {
+    animation: newEvent 0.5s ease-out;
+}
+
+/* Professional color scheme adjustments */
+.bg-blue-500 {
+    background-color: #3b82f6;
+}
+
+.bg-yellow-500 {
+    background-color: #eab308;
+}
+
+.bg-red-500 {
+    background-color: #ef4444;
+}
+
+.bg-orange-500 {
+    background-color: #f97316;
+}
+
+.bg-green-500 {
+    background-color: #22c55e;
+}
+
+.bg-purple-500 {
+    background-color: #a855f7;
+}
+
+/* Summary stats hover effects */
+.summary-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Filter dropdown styling */
+select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+}
+
+/* Professional spacing */
+.space-y-3 > * + * {
+    margin-top: 0.75rem;
+}
+
+.space-y-2 > * + * {
+    margin-top: 0.5rem;
+}

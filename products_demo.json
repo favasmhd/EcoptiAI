@@ -1,0 +1,506 @@
+[
+    {
+        "product_name": "LED High Tops",
+        "description": "Step into the spotlight with these black high-top sneakers featuring vibrant green LED lights built into the sole. Designed with classic laces and a secure buckle strap, they balance streetwear style with futuristic edge. Durable materials and a rechargeable light system make them perfect for nights out or casual urban looks.",
+        "handle": "led-high-tops",
+        "price": 80.0
+    },
+    {
+        "product_name": "Striped Skirt and Top",
+        "description": "This matching set pairs a soft black cotton top with a lightweight striped skirt for an effortlessly coordinated look. The breathable fabric and relaxed fit make it ideal for day-to-night wear, offering both comfort and style in one refined ensemble.",
+        "handle": "striped-skirt-and-top",
+        "price": 50.0
+    },
+    {
+        "product_name": "Red Sports Tee",
+        "description": "Move with ease in this red women\u2019s sports tee accented by colorful sleeve details and a crisp white pocket. Made from stretchable, moisture-wicking fabric, it keeps you cool during workouts while maintaining a bold, athletic aesthetic that fits just as well off the track.",
+        "handle": "red-sports-tee",
+        "price": 50.0
+    },
+    {
+        "product_name": "Blue Silk Tuxedo",
+        "description": "Elevate formalwear with this blue silk tuxedo, featuring a marbled aquatic pattern and dark lining. Rounded cuffs and black buttons on the sleeves add a refined finish, while the smooth silk fabric ensures comfort and sophistication for special occasions.",
+        "handle": "blue-silk-tuxedo",
+        "price": 70.0
+    },
+    {
+        "product_name": "Olive Green Jacket",
+        "description": "Stay stylish and practical in this loose-fitting olive green jacket. Equipped with large front pockets and a button closure, it features subtle multicolor patterns across the shoulders for a modern twist. Perfect for layering during casual or semi-formal outings.",
+        "handle": "olive-green-jacket",
+        "price": 65.0
+    },
+    {
+        "product_name": "White Cotton Shirt",
+        "description": "A versatile wardrobe staple, this plain white cotton shirt features long sleeves, a relaxed collar, small buttons, and a front pocket. Soft, breathable fabric makes it ideal for office wear or casual styling with jeans and chinos.",
+        "handle": "white-cotton-shirt",
+        "price": 30.0
+    },
+    {
+        "product_name": "Chequered Red Shirt",
+        "description": "Classic plaid meets modern fit in this chequered red flannel shirt. Long sleeves, two chest pockets, and durable cotton material make it perfect for layering, casual outings, or weekend adventures.",
+        "handle": "chequered-red-shirt",
+        "price": 50.0
+    },
+    {
+        "product_name": "Long Sleeve Cotton Top",
+        "description": "A minimalist black cotton top for women, featuring long sleeves, a collar-free design, and a thick hem for subtle structure. Lightweight yet durable, it pairs effortlessly with jeans, skirts, or layered under jackets.",
+        "handle": "longsleeve-cotton-top",
+        "price": 50.0
+    },
+    {
+        "product_name": "Silk Summer Top",
+        "description": "Brighten your wardrobe with this short-sleeved silk top adorned with a playful number pattern. Soft, breathable silk provides comfort during warmer months, making it ideal for casual brunches or summer evenings.",
+        "handle": "silk-summer-top",
+        "price": 70.0
+    },
+    {
+        "product_name": "Zipped Jacket",
+        "description": "This dark navy and light blue zipped jacket combines water-resistant fabric with practical outer pockets. Perfect for men on the go, its functional design ensures both style and protection during rainy or windy weather.",
+        "handle": "zipped-jacket",
+        "price": 65.0
+    },
+    {
+        "product_name": "Black Leather Bag",
+        "description": "Carry essentials in this black leather bag, designed for women with spacious compartments. Wear it over the shoulder or carry it by hand with removable straps, offering versatility without compromising style.",
+        "handle": "black-leather-bag",
+        "price": 30.0
+    },
+    {
+        "product_name": "Soft Winter Jacket",
+        "description": "Keep warm in this thick black winter jacket featuring a plush fleece lining. Designed for comfort during cold weather, its practical design makes it a reliable choice for everyday winter wear.",
+        "handle": "dark-winter-jacket",
+        "price": 50.0
+    },
+    {
+        "product_name": "Navy Sports Jacket",
+        "description": "Long-sleeved, navy waterproof jacket with soft mesh lining for breathability. Durable water-repellent fabric keeps you comfortable in all weather, while the sleek athletic cut ensures a polished look on the move.",
+        "handle": "navy-sport-jacket",
+        "price": 60.0
+    },
+    {
+        "product_name": "Dark Denim Top",
+        "description": "Classic dark denim top with chest pockets, buttoned cuffs, and a subtly distressed hem. Durable cotton denim ensures longevity, while the relaxed fit offers timeless casual style.",
+        "handle": "dark-denim-top",
+        "price": 60.0
+    },
+    {
+        "product_name": "Classic Leather Jacket",
+        "description": "Refined black leather jacket for women, featuring a zip closure, adjustable belt, and front zip pocket. Shoulder pads provide structure, combining timeless style with everyday practicality.",
+        "handle": "classic-leather-jacket",
+        "price": 80.0
+    },
+    {
+        "product_name": "Striped Silk Blouse",
+        "description": "This black and red striped silk blouse features a buckle collar and coordinating button pants for a polished ensemble. Lightweight silk offers elegance while maintaining comfort for extended wear.",
+        "handle": "striped-silk-blouse",
+        "price": 50.0
+    },
+    {
+        "product_name": "Floral White Top",
+        "description": "Sleeveless white top with a subtle floral pattern, crafted from breathable fabric for all-day comfort. Versatile design works with skirts, pants, or layered under jackets for casual or semi-formal occasions.",
+        "handle": "floral-white-top",
+        "price": 75.0
+    },
+    {
+        "product_name": "Yellow Wool Jumper",
+        "description": "Knitted wool-blend jumper with dropped shoulders, wide sleeves, and thick cuffs. Soft, cozy fabric keeps you warm throughout fall while maintaining a stylish, relaxed fit.",
+        "handle": "yellow-wool-jumper",
+        "price": 80.0
+    },
+    {
+        "product_name": "Classic Varsity Top",
+        "description": "Sport-inspired grey and black varsity top with buttoned front and embroidered lettering. Comfortable fit and durable cotton blend make it perfect for casual, everyday wear.",
+        "handle": "classic-varsity-top",
+        "price": 60.0
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "classic-varsity-top",
+        "price": 60.0
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "classic-varsity-top",
+        "price": 60.0
+    },
+    {
+        "product_name": "Ocean Blue Shirt",
+        "description": "Men\u2019s cotton shirt in a rich ocean blue, featuring a narrow collar, long sleeves, and tiled kaleidoscope patterns. Soft and breathable fabric ensures comfort during casual or semi-formal occasions.",
+        "handle": "ocean-blue-shirt",
+        "price": 50.0
+    },
+    {
+        "product_name": "Bedside Table",
+        "description": "Wooden bedside table with clean lines and durable finish. Compact design fits comfortably in bedrooms, offering a functional and stylish storage solution.",
+        "handle": "bedside-table",
+        "price": 69.99
+    },
+    {
+        "product_name": "Black Beanbag",
+        "description": "Comfortable black leather beanbag, perfect for lounging in living spaces or bedrooms. Soft and durable, providing both support and style in casual seating arrangements.",
+        "handle": "black-bean-bag",
+        "price": 69.99
+    },
+    {
+        "product_name": "Vanilla candle",
+        "description": "",
+        "handle": "vanilla-candle",
+        "price": 15.99
+    },
+    {
+        "product_name": "Knitted Throw Pillows",
+        "description": "Handcrafted knitted throw pillows in a variety of colors. Soft, decorative, and versatile, ideal for sofas, chairs, or bedroom styling.",
+        "handle": "knitted-throw-pillows",
+        "price": 19.99
+    },
+    {
+        "product_name": "Yellow Sofa",
+        "description": "Two-seater yellow sofa with sturdy wooden legs. Soft cushioning and durable fabric provide comfort and color to any living space.",
+        "handle": "yellow-sofa",
+        "price": 99.99
+    },
+    {
+        "product_name": "Wooden Fence",
+        "description": "Sturdy wooden garden fence, perfect for outdoor landscaping and privacy. Natural wood finish adds rustic charm to any garden or yard.",
+        "handle": "wooden-fence",
+        "price": 200.0
+    },
+    {
+        "product_name": "Wooden outdoor slats",
+        "description": "",
+        "handle": "wooden-outdoor-slats",
+        "price": 25.99
+    },
+    {
+        "product_name": "Grey Sofa",
+        "description": "Large four-seater grey sofa with plush cushions. Designed for comfort and durability, ideal for family rooms or shared living spaces.",
+        "handle": "grey-sofa",
+        "price": 29.99
+    },
+    {
+        "product_name": "Biodegradable cardboard pots",
+        "description": "",
+        "handle": "biodegradable-cardboard-pots",
+        "price": 10.0
+    },
+    {
+        "product_name": "Gardening hand trowel",
+        "description": "",
+        "handle": "gardening-hand-trowel",
+        "price": 10.99
+    },
+    {
+        "product_name": "Yellow watering can",
+        "description": "",
+        "handle": "yellow-watering-can",
+        "price": 40.99
+    },
+    {
+        "product_name": "White Ceramic Pot",
+        "description": "Handmade white ceramic flower pot, ideal for small plants or decorative displays. Smooth finish and timeless design suit any indoor space.",
+        "handle": "white-ceramic-pot",
+        "price": 15.99
+    },
+    {
+        "product_name": "Brown Throw Pillows",
+        "description": "Stylish brown throw pillows, soft and comfortable. Perfect for sofas, beds, or chairs, adding warmth and texture to your home.",
+        "handle": "brown-throw-pillows",
+        "price": 19.99
+    },
+    {
+        "product_name": "Wooden Outdoor Table",
+        "description": "Chic wooden garden table, designed for outdoor dining and leisure. Durable finish ensures weather resistance while maintaining elegant style.",
+        "handle": "wooden-outdoor-table",
+        "price": 99.99
+    },
+    {
+        "product_name": "Pink Armchair",
+        "description": "Soft pink armchair with cushioned seat and backrest. Stylish design adds color and comfort to any indoor setting.",
+        "handle": "pink-armchair",
+        "price": 750.0
+    },
+    {
+        "product_name": "White Bed Clothes",
+        "description": "Sleek white bed linens with a smooth, clean finish. Comfortable and versatile, perfect for bedrooms or guest rooms.",
+        "handle": "white-bed-clothes",
+        "price": 29.99
+    },
+    {
+        "product_name": "Antique Drawers",
+        "description": "Antique wooden chest of drawers with classic design. Sturdy construction offers storage while adding vintage charm to any room.",
+        "handle": "antique-drawers",
+        "price": 250.0
+    },
+    {
+        "product_name": "Cream Sofa",
+        "description": "Cream-colored sofa with wooden base, providing comfortable seating for multiple people. Durable fabric and timeless style make it ideal for living rooms.",
+        "handle": "cream-sofa",
+        "price": 500.0
+    },
+    {
+        "product_name": "Copper Light",
+        "description": "Copper bedside light with stylish design. Adds warmth and accent lighting to bedrooms or living spaces.",
+        "handle": "copper-light",
+        "price": 59.99
+    },
+    {
+        "product_name": "Clay Plant Pot",
+        "description": "Classic clay plant pot, ideal for indoor or outdoor planting. Sturdy and timeless design complements any garden or decor.",
+        "handle": "clay-plant-pot",
+        "price": 9.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "clay-plant-pot",
+        "price": 15.99
+    },
+    {
+        "product_name": "Stylish Summer Necklace",
+        "description": "Double-chained gold necklace with turquoise pendant. Lightweight and elegant, perfect for summer outfits or gifting.",
+        "handle": "stylish-summer-neclace",
+        "price": 44.99
+    },
+    {
+        "product_name": "Silver Threader Necklace",
+        "description": "Sterling silver chain necklace with a minimalist thread-through circle design. Sleek and versatile for everyday wear.",
+        "handle": "silver-threader-necklace",
+        "price": 14.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "silver-threader-necklace",
+        "price": NaN
+    },
+    {
+        "product_name": "Pretty Gold Necklace",
+        "description": "14k gold necklace featuring turquoise beads and pendant details. Elegant design adds sophistication to casual or formal outfits.",
+        "handle": "pretty-gold-necklace",
+        "price": 44.95
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "pretty-gold-necklace",
+        "price": NaN
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "pretty-gold-necklace",
+        "price": NaN
+    },
+    {
+        "product_name": "Origami Crane Necklace",
+        "description": "Sterling silver necklace featuring an origami crane pendant. Lightweight and whimsical, ideal for gifting or personal style.",
+        "handle": "origami-crane-necklace",
+        "price": 75.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "origami-crane-necklace",
+        "price": NaN
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "origami-crane-necklace",
+        "price": NaN
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "origami-crane-necklace",
+        "price": NaN
+    },
+    {
+        "product_name": "Moon Charm Bracelet",
+        "description": "14k gold friendship bracelet with delicate moon charm. Adjustable chain ensures a comfortable fit for daily wear.",
+        "handle": "moon-charm-bracelet",
+        "price": 47.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "moon-charm-bracelet",
+        "price": NaN
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "moon-charm-bracelet",
+        "price": NaN
+    },
+    {
+        "product_name": "Guardian Angel Earrings",
+        "description": "Sterling silver earrings with guardian angel motif and diamond accents. Timeless design for casual or formal occasions.",
+        "handle": "guardian-angel-earrings",
+        "price": 19.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "guardian-angel-earrings",
+        "price": NaN
+    },
+    {
+        "product_name": "Gold Elephant Earrings",
+        "description": "Small 14k gold earrings shaped like elephants, featuring subtle opal accents. Lightweight and charming for everyday wear.",
+        "handle": "looped-earrings",
+        "price": 54.99
+    },
+    {
+        "product_name": "Gold Bird Necklace",
+        "description": "Delicate 14k gold necklace featuring a bird pendant suspended between two chains. Elegant and versatile for layering or standalone wear.",
+        "handle": "gold-bird-necklace",
+        "price": 79.99
+    },
+    {
+        "product_name": "Gemstone Necklace",
+        "description": "Sterling silver necklace with gemstone pendant (Turquoise or Quartz). 14-inch chain, boho-chic design, perfect for layering or gifting.",
+        "handle": "gemstone",
+        "price": 27.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "gemstone",
+        "price": 27.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "gemstone",
+        "price": NaN
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "gemstone",
+        "price": NaN
+    },
+    {
+        "product_name": "Galaxy Earrings",
+        "description": "Set of earrings with galaxy-inspired design and sterling silver clasps. Lightweight and unique for casual or themed styling.",
+        "handle": "galaxy-earrings",
+        "price": 37.99
+    },
+    {
+        "product_name": "Dreamcatcher Pendant Necklace",
+        "description": "Turquoise beaded dreamcatcher pendant with silver feather details. Subtle movement adds charm and personality to everyday outfits.",
+        "handle": "dreamcatcher-pendant-necklace",
+        "price": 23.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "dreamcatcher-pendant-necklace",
+        "price": NaN
+    },
+    {
+        "product_name": "Dainty Gold Necklace",
+        "description": "Minimalist gold necklace featuring two pendants. Lightweight and elegant, suitable for layering or standalone wear.",
+        "handle": "dainty-gold-neclace",
+        "price": 63.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "dainty-gold-neclace",
+        "price": NaN
+    },
+    {
+        "product_name": "Choker with Triangle",
+        "description": "Black choker necklace with silver triangle pendant. Adjustable design ensures comfortable fit with modern, geometric style.",
+        "handle": "choker-with-triangle",
+        "price": 47.99
+    },
+    {
+        "product_name": "Choker with Gold Pendant",
+        "description": "Black leather cord choker featuring a 14k gold pendant. Lightweight yet striking, balancing dark leather with bright gold accents.",
+        "handle": "choker-with-gold-pendant",
+        "price": 29.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "choker-with-gold-pendant",
+        "price": NaN
+    },
+    {
+        "product_name": "Choker with Bead",
+        "description": "Black choker necklace with a single 14k gold bead. Simple, elegant design for versatile styling.",
+        "handle": "choker-with-bead",
+        "price": 14.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "choker-with-bead",
+        "price": NaN
+    },
+    {
+        "product_name": "Boho Earrings",
+        "description": "Turquoise globe earrings on 14k gold hooks. Lightweight and colorful, perfect for casual or festival looks.",
+        "handle": "boho-earrings",
+        "price": 27.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "boho-earrings",
+        "price": NaN
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "boho-earrings",
+        "price": NaN
+    },
+    {
+        "product_name": "Boho Bangle Bracelet",
+        "description": "Gold boho bangle bracelet with multicolor tassels. Vibrant accessory to complement casual and summer outfits.",
+        "handle": "bangle-bracelet-with-feathers",
+        "price": 42.99
+    },
+    {
+        "product_name": "Bangle Bracelet",
+        "description": "Gold bangle adorned with studded jewels. Timeless design suitable for casual or formal styling.",
+        "handle": "bangle-bracelet",
+        "price": 39.99
+    },
+    {
+        "product_name": "Anchor Bracelet Mens",
+        "description": "Black leather bracelet with gold or silver anchor for men. Durable and stylish, perfect for everyday wear or gifting.",
+        "handle": "leather-anchor",
+        "price": 69.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "leather-anchor",
+        "price": 55.0
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "leather-anchor",
+        "price": NaN
+    },
+    {
+        "product_name": "7 Shakra Bracelet",
+        "description": "Blue or black 7-chakra bracelet. Designed to combine style with balance, suitable for everyday casual wear.",
+        "handle": "chain-bracelet",
+        "price": 42.99
+    },
+    {
+        "product_name": NaN,
+        "description": "",
+        "handle": "chain-bracelet",
+        "price": 42.99
+    }
+]
